@@ -1,1 +1,2 @@
+clear
 echo hello world
